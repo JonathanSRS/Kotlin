@@ -28,7 +28,7 @@ class TopicoRepositoryTest {
 	
 	companion object{
 		@Container
-		private val mysqlContainer = MySQLContainer<Nothing>("mysql:8.0.28").apply{
+		private val mysqlContainer = MySQLContainer<Nothing>("mysql:8.0.29").apply{
 			withDatabaseName("testedb")
 			withUsername("jon")
 			withPassword("123456")
